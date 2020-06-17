@@ -2,6 +2,11 @@
 
 foodr is food delivery app 
 
+###Screens
+<img src="./screens/1.png"  />
+<img src="./screens/2.png"  />
+<img src="./screens/3.png"  />
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
