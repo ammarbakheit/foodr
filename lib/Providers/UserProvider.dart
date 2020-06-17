@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:foodr/Models/FoodModels/Burger.dart';
 import 'package:foodr/Models/User.dart';
 import 'package:foodr/services/UserServices.dart';
 import 'package:foodr/utils/locator.dart';

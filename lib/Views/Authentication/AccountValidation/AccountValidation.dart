@@ -53,7 +53,6 @@ class AccountValidationview extends StatelessWidget {
                                     letterSpacing: 10,
                                     fontSize: 22,
                                     fontWeight: w900,
-                                    
                                   ),
                                   keyboardType: TextInputType.number,
                                   // validator: emailValidator,
@@ -80,13 +79,7 @@ class AccountValidationview extends StatelessWidget {
                       child: FlatButton(
                         padding: EdgeInsets.symmetric(vertical: 15),
                         color: mainColor,
-                        onPressed: () async {
-                          bool accountValidationResponse =
-                              await model.ValidateAccount();
-                          if (accountValidationResponse == true) {
-                            Navigator.of(context).pushReplacementNamed("/home");
-                          }
-                        },
+                        onPressed: ()  { },
                         shape: RoundedRectangleBorder(
                           side: BorderSide(width: 1, color: whiteColor),
                           borderRadius: BorderRadius.circular(10),

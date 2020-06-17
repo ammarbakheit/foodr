@@ -21,7 +21,7 @@ class _SplashScreenViewState extends State<SplashScreenView> {
     var userProvider =  Provider.of<UserProvider>(context, listen: false);
     var userChcker = await userProvider.checkUser();
     if(userChcker == true) {
-        Navigator.of(context).pushReplacementNamed("/home");
+        Navigator.of(context).pushReplacementNamed("/foodhomeView");
     }else {
     Navigator.of(context).pushReplacementNamed("/postSplash");
 
