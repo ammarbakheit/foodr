@@ -3,9 +3,9 @@
 foodr is food delivery app 
 
 ###Screens
-<img src="./screens/1.png"  />
-<img src="./screens/2.png"  />
-<img src="./screens/3.png"  />
+<img src="./1.png"  />
+<img src="./2.png"  />
+<img src="./3.png"  />
 
 ## Getting Started
 
